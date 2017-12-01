@@ -1,0 +1,13 @@
+https://openexchangerates.org/signup/free
+http://www.ecb.int/stats/eurofxref/eurofxref-daily.xml
+
+A. BE
+   - Fetches and stores xrates from fintech providers by making API calls or raw http GET requests or selenium/automation
+   - Provides webservide API data endpoints for UI clientes
+   - Caters for redundant servers for failproof service and load balancing
+   - Multithreaded Java and C/C++, PHP
+   
+B. FE
+   - Calls API data endpoints provided by the servers
+   - Calculates and shows forex stats and graphs
+   - Desktop Win and MacOS, website, Android, iOS
